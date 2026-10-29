@@ -1,0 +1,20 @@
+{
+  "network": {
+    "chainId": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "address": "0xA090568E1a68800611D730C858A8747fc41AF893",
+  "owner": "0x96c6fC92C5FDA797bDCeA133AE7456D71523e994",
+  "sourceSha256": "734301ce9ce4b61ffec25eb70b28d368ac7956d3379daa5bae3184827f8027c0",
+  "protocol": "chronobound-1",
+  "verifiedDate": "2026-10-29",
+  "terminalState": "CERTIFIED",
+  "recordId": "archive-demo",
+  "explorer": "https://explorer-studio.genlayer.com/address/0xA090568E1a68800611D730C858A8747fc41AF893",
+  "transactions": {
+    "deploy": "0x0d29fe36d546ffdb679d37b2dea04c63e28b4b1c2a66abfc6f2b242427d50131",
+    "seal": "0x506f49bf5f1421990afefb444ec74e6600c918d1346a27d07ff860b76209bb98",
+    "compile": "0xe35e6332b75c44b829c29c9807229e37375503446d51ce60e4bb99647e051716",
+    "certify": "0x3c3ae6b97982e633aa30da94f4235deae4c50cdd52198ce5d2eba4085525a857"
+  }
+}

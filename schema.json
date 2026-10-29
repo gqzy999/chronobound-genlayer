@@ -1,0 +1,81 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "certify": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "ident",
+          "string"
+        ],
+        [
+          "digest",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "compile": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "ident",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_schedule": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "ident",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "seal": {
+      "params": [
+        [
+          "ident",
+          "string"
+        ],
+        [
+          "payload",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}
